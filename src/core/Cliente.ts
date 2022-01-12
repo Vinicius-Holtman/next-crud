@@ -18,10 +18,10 @@ export default class Cliente {
     }
 
     get nome() {
-        return this.#id
+        return this.#nome
     }
 
     get idade() {
-        return this.#id
+        return this.#idade
     }
 }
