@@ -4,9 +4,9 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   safeList: [
-    /^bg-/,
-    /^to-/,
-    /^from-/,
+    'bg-',
+    'to-',
+    'from-'
   ],
   theme: {
     extend: {},
