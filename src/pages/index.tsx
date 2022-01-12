@@ -1,9 +1,13 @@
+import Titulo from "../components/Titulo";
+
 export default function Home() {
   return (
     <div className={`
-      flex h-screen justify-center items-center bg-gradient-to-r from-purple-500 via-yellow-500
+      flex h-screen justify-center items-center bg-gradient-to-r from-blue-500 to-purple-500 text-white
     `}>
-      <span className="text-4xl">Texto</span>
+      <Titulo titulo="Cadastro simples">
+        <span>conteudo</span>
+      </Titulo>
     </div>
   )
 }
